@@ -1,0 +1,222 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:LED D1
+U 1 1 60DCC8E5
+P 4175 3075
+F 0 "D1" V 4275 3050 50  0000 R CNN
+F 1 "LED" V 4123 2957 50  0001 R CNN
+F 2 "LED_THT:LED_Rectangular_W5.0mm_H2.0mm" H 4175 3075 50  0001 C CNN
+F 3 "~" H 4175 3075 50  0001 C CNN
+	1    4175 3075
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D2
+U 1 1 60DCE241
+P 4425 3075
+F 0 "D2" V 4525 3050 50  0000 R CNN
+F 1 "LED" V 4373 2957 50  0001 R CNN
+F 2 "LED_THT:LED_Rectangular_W5.0mm_H2.0mm" H 4425 3075 50  0001 C CNN
+F 3 "~" H 4425 3075 50  0001 C CNN
+	1    4425 3075
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D3
+U 1 1 60DCEAFD
+P 4650 3075
+F 0 "D3" V 4750 3050 50  0000 R CNN
+F 1 "LED" V 4598 2957 50  0001 R CNN
+F 2 "LED_THT:LED_Rectangular_W5.0mm_H2.0mm" H 4650 3075 50  0001 C CNN
+F 3 "~" H 4650 3075 50  0001 C CNN
+	1    4650 3075
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D4
+U 1 1 60DCF1D9
+P 4850 3075
+F 0 "D4" V 4950 3050 50  0000 R CNN
+F 1 "LED" V 4798 2957 50  0001 R CNN
+F 2 "LED_THT:LED_Rectangular_W5.0mm_H2.0mm" H 4850 3075 50  0001 C CNN
+F 3 "~" H 4850 3075 50  0001 C CNN
+	1    4850 3075
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D5
+U 1 1 60DD3AAB
+P 5075 3075
+F 0 "D5" V 5175 3050 50  0000 R CNN
+F 1 "LED" V 5023 2957 50  0001 R CNN
+F 2 "LED_THT:LED_Rectangular_W5.0mm_H2.0mm" H 5075 3075 50  0001 C CNN
+F 3 "~" H 5075 3075 50  0001 C CNN
+	1    5075 3075
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D6
+U 1 1 60DD3AB1
+P 5325 3075
+F 0 "D6" V 5425 3050 50  0000 R CNN
+F 1 "LED" V 5273 2957 50  0001 R CNN
+F 2 "LED_THT:LED_Rectangular_W5.0mm_H2.0mm" H 5325 3075 50  0001 C CNN
+F 3 "~" H 5325 3075 50  0001 C CNN
+	1    5325 3075
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D7
+U 1 1 60DD3AB7
+P 5550 3075
+F 0 "D7" V 5650 3050 50  0000 R CNN
+F 1 "LED" V 5498 2957 50  0001 R CNN
+F 2 "LED_THT:LED_Rectangular_W5.0mm_H2.0mm" H 5550 3075 50  0001 C CNN
+F 3 "~" H 5550 3075 50  0001 C CNN
+	1    5550 3075
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D8
+U 1 1 60DD3ABD
+P 5750 3075
+F 0 "D8" V 5850 3050 50  0000 R CNN
+F 1 "LED" V 5698 2957 50  0001 R CNN
+F 2 "LED_THT:LED_Rectangular_W5.0mm_H2.0mm" H 5750 3075 50  0001 C CNN
+F 3 "~" H 5750 3075 50  0001 C CNN
+	1    5750 3075
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x09_Male J1
+U 1 1 60DE3227
+P 5450 2325
+F 0 "J1" V 5285 2303 50  0000 C CNN
+F 1 "Conn_01x09_Male" V 5376 2303 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical" H 5450 2325 50  0001 C CNN
+F 3 "~" H 5450 2325 50  0001 C CNN
+	1    5450 2325
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5750 2525 5750 2925
+Wire Wire Line
+	5650 2525 5650 2875
+Wire Wire Line
+	5650 2875 5550 2875
+Wire Wire Line
+	5550 2875 5550 2925
+Wire Wire Line
+	5550 2525 5550 2825
+Wire Wire Line
+	5550 2825 5325 2825
+Wire Wire Line
+	5325 2825 5325 2925
+Wire Wire Line
+	5450 2525 5450 2775
+Wire Wire Line
+	5450 2775 5075 2775
+Wire Wire Line
+	5075 2775 5075 2925
+Wire Wire Line
+	5350 2525 5350 2725
+Wire Wire Line
+	5350 2725 4850 2725
+Wire Wire Line
+	4850 2725 4850 2925
+Wire Wire Line
+	5250 2525 5250 2675
+Wire Wire Line
+	5250 2675 4650 2675
+Wire Wire Line
+	4650 2675 4650 2925
+Wire Wire Line
+	5150 2525 5150 2625
+Wire Wire Line
+	5150 2625 4425 2625
+Wire Wire Line
+	4425 2625 4425 2925
+Wire Wire Line
+	5050 2525 5050 2575
+Wire Wire Line
+	5050 2575 4175 2575
+Wire Wire Line
+	4175 2575 4175 2925
+Wire Wire Line
+	5750 3225 5750 3675
+Wire Wire Line
+	5550 3225 5550 3325
+Wire Wire Line
+	5550 3325 5650 3325
+Wire Wire Line
+	5650 3325 5650 3675
+Wire Wire Line
+	5325 3225 5325 3375
+Wire Wire Line
+	5325 3375 5550 3375
+Wire Wire Line
+	5550 3375 5550 3675
+Wire Wire Line
+	5075 3225 5075 3425
+Wire Wire Line
+	5075 3425 5450 3425
+Wire Wire Line
+	5450 3425 5450 3675
+$Comp
+L Device:R_Network08_US RN1
+U 1 1 60DDAF20
+P 5350 3875
+F 0 "RN1" H 5700 4075 50  0000 R CNN
+F 1 "R_Network08_US" H 4870 3920 50  0001 R CNN
+F 2 "Resistor_THT:R_Array_SIP9" V 5825 3875 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 5350 3875 50  0001 C CNN
+	1    5350 3875
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4850 3225 4850 3475
+Wire Wire Line
+	4850 3475 5350 3475
+Wire Wire Line
+	5350 3475 5350 3675
+Wire Wire Line
+	4650 3225 4650 3525
+Wire Wire Line
+	4650 3525 5250 3525
+Wire Wire Line
+	5250 3525 5250 3675
+Wire Wire Line
+	4425 3225 4425 3575
+Wire Wire Line
+	4425 3575 5150 3575
+Wire Wire Line
+	5150 3575 5150 3675
+Wire Wire Line
+	4175 3225 4175 3625
+Wire Wire Line
+	4175 3625 5050 3625
+Wire Wire Line
+	5050 3625 5050 3675
+Wire Wire Line
+	5750 4075 5950 4075
+Wire Wire Line
+	5950 4075 5950 2875
+Wire Wire Line
+	5950 2875 5850 2875
+Wire Wire Line
+	5850 2875 5850 2525
+$EndSCHEMATC
